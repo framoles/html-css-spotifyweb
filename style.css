@@ -12,21 +12,30 @@ a{
 
 main{
     display: flex;
-    height: 80vh;
+    height: 90vh;
 }
 
 aside{
-    background-color: aqua;
+    background-color: black;
     width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
-aside img{
-    width: 50px;
+
+
+aside ul img{
+    width: 30px;
+}
+
+aside ul li a{
+    vertical-align:middle;
 }
 
 section{
     width: calc(100% - 200px);
-    background-color:blueviolet;
+    background-color:#151a23;
     overflow-y:scroll;
 }
 
@@ -35,7 +44,11 @@ section header{
     height: 100px;
     position: fixed;
     z-index: 3;
-    background-color: rgba(0, 0, 0, 0.719);
+    background-color: #0a0d11d2;
+}
+
+section article h1{
+    font-size: 2em;
 }
 
 .premium{
@@ -62,6 +75,10 @@ section article nav{
     width: 100%;
 }
 
+section article nav a{
+    margin-right: 30px;
+}
+
 .music{
     padding: 20px;
 }
@@ -71,8 +88,9 @@ section article nav{
 }
 
 .element{
-    width: calc(100% / 6);
+    width: calc(100% / 6 - 30px);
     text-align: center;
+    margin-right: 30px;
 }
 
 .element img{
@@ -87,6 +105,13 @@ section article nav{
 
 footer{
     width: 100%;
-    height: 20vh;
-    background-color: black;
+    height: 10vh;
+    background-color: #292929;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+footer .fleft img{
+    width: 50px;
 }

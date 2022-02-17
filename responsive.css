@@ -1,0 +1,20 @@
+@media screen and (max-width: 1020px){ 
+    .element{
+        width: calc(100% / 4 - 30px);
+    }
+}
+
+@media screen and (max-width: 650px){ 
+    .element{
+        width: calc(100% / 2 - 30px);
+    }
+}
+
+@media screen and (max-width: 500px){ 
+    aside{
+        width: 50px;
+    }
+    aside a{
+        display: none;
+    }
+}
