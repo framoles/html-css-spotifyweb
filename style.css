@@ -51,7 +51,7 @@ section header{
     background-color: #0a0d11d2;
 }
 
-section article h1{
+section .smain h1{
     font-size: 2em;
 }
 
@@ -73,16 +73,16 @@ section article h1{
     font-size: 1.2em;
 }
 
-section article{
+.smain{
     margin-top: 120px;
 }
 
-section article nav{
+.smain nav{
     text-align: center;
     width: 100%;
 }
 
-section article nav a{
+.smain nav a{
     margin-right: 30px;
 }
 
@@ -90,7 +90,7 @@ section article nav a{
     padding: 20px;
 }
 
-.music h1{
+.music h2{
     margin-top: 50px;
 }
 
@@ -115,6 +115,7 @@ footer{
     background-color: #292929;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 20px;
     position: absolute;
     bottom: 0;
