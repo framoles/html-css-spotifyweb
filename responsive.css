@@ -14,7 +14,20 @@
     aside{
         width: 50px;
     }
-    aside a{
+    aside a, .playlist{
         display: none;
+    }
+    section{
+        width: calc(100% - 50px);
+    }
+
+    section header{
+    width: calc(100% - 50px);
+    }
+}
+
+@media screen and (max-height: 650px){ 
+    .playlist{
+        overflow-y: scroll;
     }
 }
